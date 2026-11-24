@@ -1,0 +1,1096 @@
+# GENERADOR INTEGRAL DE DOCUMENTOS EMPRESARIALES – VAQUIMILK S.A.S.
+
+## 1. OBJETIVO GENERAL
+
+Quiero desarrollar e integrar en mi proyecto una herramienta profesional denominada **GENERADOR INTEGRAL DE DOCUMENTOS EMPRESARIALES**, perteneciente a VAQUIMILK S.A.S.
+
+Esta herramienta debe permitir crear, personalizar, visualizar, editar, imprimir y descargar documentos organizacionales y empresariales, utilizando como referencia principal la Guía Técnica Colombiana GTC 185:2009 de ICONTEC, denominada DOCUMENTACIÓN ORGANIZACIONAL.
+
+El generador debe contemplar los diez capítulos documentales desarrollados en la guía, desde el capítulo 5 hasta el capítulo 14.
+
+La herramienta debe facilitar la elaboración de documentos empresariales mediante formularios independientes, plantillas específicas, asistencia de inteligencia artificial, vista previa y exportación a Word y PDF.
+
+## 2. INFORMACIÓN CORPORATIVA DE VAQUIMILK S.A.S.
+
+Utilizar los siguientes datos como información institucional de referencia:
+
+- Razón social: VAQUIMILK S.A.S. (según el RUT suministrado).
+- Nombre comercial: VAQUIMILK.
+- NIT: 901239367-8.
+- País: Colombia.
+- Departamento: Bogotá D.C.
+- Municipio: Bogotá D.C.
+- Localidad: Usme.
+- Dirección: Carrera 14T #74-24 Sur.
+- Código postal: 110110.
+- Correo electrónico: vaquimilk.lacteos@gmail.com.
+- Representante legal registrada: María José Sánchez Carvajal.
+
+Información complementaria:
+
+- Actividad económica principal CIIU: 4722.
+- Actividad económica secundaria CIIU: 1040.
+- Otra actividad económica registrada en el RUES: 4631.
+
+IMPORTANTE:
+
+La razón social aparece con una diferencia de denominación entre el RUT y el RUES. Utilizar provisionalmente VAQUIMILK S.A.S. y permitir su modificación cuando se verifique el certificado de existencia y representación legal vigente.
+
+No incorporar teléfonos corporativos hasta que sean confirmados, debido a las diferencias encontradas entre los registros suministrados.
+
+Los datos empresariales deben permanecer editables desde una configuración institucional, para facilitar futuras actualizaciones sin modificar individualmente cada plantilla.
+
+No inventar información corporativa, datos de contacto, cargos, nombres ni identificaciones.
+
+## 3. INSTRUCCIÓN PRINCIPAL
+
+Antes de desarrollar la herramienta:
+
+1. Analizar la GTC 185:2009 y el documento normativo que proporcionaré como referencia.
+2. Identificar las características generales de presentación de los documentos.
+3. Analizar las partes específicas de cada tipo documental.
+4. Establecer correctamente las zonas, márgenes, estilos, tipografía, alineaciones, espacios y distribución.
+5. Diseñar una plantilla independiente para cada modalidad documental.
+6. Adaptar las estructuras a la identidad corporativa de VAQUIMILK S.A.S.
+
+IMPORTANTE:
+
+- No reconstruir la plataforma existente desde cero.
+- No eliminar funcionalidades que ya existan.
+- No modificar módulos ajenos al generador documental.
+- No dañar componentes, conexiones ni estructuras actuales.
+- Si ya existe un generador de documentos, ampliarlo y mejorarlo.
+- Mantener la compatibilidad con la arquitectura y tecnologías actuales.
+- Implementar funcionalidades reales, no solamente diseños visuales.
+- No confundir los estilos de distribución documental con los estilos visuales de presentación.
+- No imponer una misma estructura a todos los documentos.
+- No afirmar que un documento cumple automáticamente la GTC 185 sin comprobar las características que le corresponden.
+
+La GTC 185 debe utilizarse como guía técnica de referencia y sus recomendaciones deben adaptarse a las características de VAQUIMILK S.A.S.
+
+# 4. MENÚ PRINCIPAL DEL GENERADOR
+
+Al ingresar al módulo, mostrar el título:
+
+**GENERADOR INTEGRAL DE DOCUMENTOS EMPRESARIALES**
+
+Descripción:
+
+"Crea, personaliza y genera documentos empresariales profesionales para VAQUIMILK S.A.S., utilizando estructuras documentales basadas en la GTC 185 de ICONTEC."
+
+Presentar diez módulos independientes:
+
+1. Cartas.
+2. Memorandos.
+3. Circulares.
+4. Actas.
+5. Informes.
+6. Certificados y constancias.
+7. Hojas de vida corporativas.
+8. Sobres comerciales.
+9. Mensajes electrónicos.
+10. Tarjetas protocolarias.
+
+Cada módulo debe incluir:
+
+- Icono representativo.
+- Nombre del documento.
+- Descripción breve.
+- Botón para comenzar.
+- Acceso a las plantillas disponibles.
+
+Cada tipo documental debe tener su propio formulario y plantilla, pero compartir el sistema general de edición, vista previa y exportación.
+
+# 5. ASPECTOS GENERALES DE PRESENTACIÓN DOCUMENTAL
+
+Aplicar las recomendaciones generales del capítulo 4 de la GTC 185.
+
+## A. Zonas documentales
+
+Incorporar las siguientes zonas cuando correspondan:
+
+**Zona 1: Membrete**
+
+Espacio destinado a:
+
+- Razón social.
+- Sigla o acrónimo, si existe.
+- Logotipo.
+- Número de Identificación Tributaria (NIT).
+
+Tomar como referencia las recomendaciones de ubicación y dimensiones de la guía.
+
+**Zona 2: Información de contacto**
+
+Espacio destinado a:
+
+- Dirección.
+- Correo electrónico.
+- Sitio web, si existe.
+- Teléfono.
+- Lugar de origen.
+- País.
+
+Ubicar estos elementos de acuerdo con las características del documento.
+
+**Zona 3: Registro y radicación**
+
+Espacio superior derecho destinado a los datos de registro y radicación cuando corresponda.
+
+No incorporar automáticamente las tres zonas en todos los documentos. Su utilización dependerá de las características del tipo documental.
+
+## B. Márgenes
+
+Utilizar como referencia las siguientes recomendaciones de la GTC 185:
+
+- Margen superior: entre 3 y 4 cm.
+- Margen inferior: entre 2 y 3 cm.
+- Margen izquierdo: entre 3 y 4 cm.
+- Margen derecho: entre 2 y 3 cm.
+
+Cuando el documento se imprima por ambas caras, permitir configurar márgenes laterales simétricos de 3 cm.
+
+Los márgenes deben poder ajustarse cuando las características particulares del documento lo requieran.
+
+## C. Estilos de distribución
+
+Incluir los tres estilos establecidos en el numeral 4.3 de la GTC 185:
+
+**1. Estilo bloque extremo**
+
+Todas las líneas parten del margen izquierdo.
+
+**2. Estilo bloque**
+
+Las líneas de código, lugar de origen, fecha de elaboración, firma y cargo se escriben partiendo del centro del escrito hacia el margen derecho.
+
+**3. Estilo semibloque**
+
+Conserva la distribución del estilo bloque, pero incorpora sangría de 5 a 10 espacios en el primer renglón de cada párrafo.
+
+IMPORTANTE: Estos estilos deben aplicarse a la distribución del contenido y no confundirse con los diseños visuales de presentación.
+
+## D. Tipografía
+
+La GTC 185 recomienda utilizar fuentes claras, agradables a la vista y homogéneas.
+
+Tomar como referencia los tamaños de 10 a 12 puntos.
+
+Incluir alternativas:
+
+- Arial.
+- Times New Roman.
+- Calibri.
+- Verdana.
+
+Configuración predeterminada:
+
+- Fuente Arial.
+- Tamaño 12 puntos para el texto principal.
+- Tamaño 10 puntos para elementos complementarios cuando corresponda.
+
+Permitir modificar la fuente y el tamaño.
+
+Evitar el uso excesivo de negrillas y elementos decorativos que afecten la presentación formal.
+
+## E. Elementos complementarios
+
+Incorporar cuando corresponda:
+
+- Código documental.
+- Lugar de origen y fecha.
+- Datos del destinatario.
+- Asunto.
+- Cuerpo o texto.
+- Datos del remitente.
+- Firma.
+- Anexos.
+- Copias.
+- Identificación del redactor o transcriptor.
+- Identificación de páginas subsiguientes.
+
+Los elementos deben aparecer únicamente cuando correspondan al documento seleccionado.
+
+# 6. CARTAS
+
+Crear un generador completo de cartas y oficios organizacionales.
+
+## A. Clases de cartas
+
+Permitir seleccionar:
+
+- Carta organizacional.
+- Carta oficial, cuando corresponda.
+- Carta personal, cuando se requiera.
+
+## B. Estilos de distribución
+
+- Bloque extremo.
+- Bloque.
+- Semibloque.
+
+## C. Información del destinatario
+
+Incluir:
+
+- Ciudad y fecha.
+- Tratamiento o título académico.
+- Nombre completo.
+- Cargo.
+- Organización.
+- Dirección.
+- Ciudad y departamento.
+- País, cuando corresponda.
+
+## D. Asunto
+
+Incorporar opciones:
+
+- Solicitud de información.
+- Solicitud de cotización.
+- Presentación empresarial.
+- Respuesta a una solicitud.
+- Confirmación de pedido.
+- Envío de documentos.
+- Invitación.
+- Agradecimiento.
+- Reclamación.
+- Notificación.
+- Comunicación organizacional.
+- Otro asunto personalizado.
+
+Permitir escribir un asunto libre.
+
+Respetar la recomendación de presentar el asunto de manera breve y concreta, preferiblemente en un máximo de cuatro palabras.
+
+## E. Desarrollo
+
+Ofrecer estilos de redacción:
+
+- Formal y directo.
+- Cordial y empresarial.
+- Explicativo.
+- Breve y concreto.
+- Persuasivo.
+- Informativo.
+
+Incorporar un campo amplio para desarrollar las ideas principales.
+
+La herramienta de inteligencia artificial debe ayudar a redactar y organizar el contenido.
+
+## F. Despedida y firma
+
+Incluir:
+
+- Despedida.
+- Nombre del remitente.
+- Cargo.
+- Firma.
+- Anexos.
+- Copias.
+- Identificación del redactor o transcriptor cuando corresponda.
+
+## G. Características de redacción
+
+Aplicar las recomendaciones de la guía:
+
+- Tratar un solo tema por comunicación.
+- Redactar de forma clara, precisa, concreta y concisa.
+- Utilizar tratamiento respetuoso y cortés.
+- Emplear lenguaje natural, sencillo y continuo.
+- Distribuir el texto de acuerdo con su extensión.
+
+# 7. MEMORANDOS
+
+Crear un generador independiente de memorandos organizacionales, de acuerdo con el capítulo 6 de la GTC 185.
+
+## A. Campos
+
+- Código.
+- Fecha.
+- Destinatario.
+- Remitente.
+- Asunto.
+- Texto.
+- Firma.
+- Cargo.
+- Anexos.
+- Copias, cuando correspondan.
+
+## B. Tipos de memorando
+
+- Informativo.
+- Solicitud.
+- Instrucción.
+- Recordatorio.
+- Comunicación interna.
+- Convocatoria.
+- Otros asuntos organizacionales.
+
+## C. Características
+
+Permitir seleccionar:
+
+- Estilo bloque extremo.
+- Estilo bloque.
+
+Incorporar los campos de destinatario y remitente de acuerdo con la estructura del memorando.
+
+Presentar la palabra ASUNTO en mayúscula sostenida, seguida de dos puntos, de acuerdo con la recomendación general de la guía para este documento.
+
+Permitir generar memorandos de una o varias páginas.
+
+# 8. CIRCULARES
+
+Crear un generador de circulares organizacionales basado en el capítulo 7 de la GTC 185.
+
+## A. Clases de circulares
+
+- Circular general.
+- Circular interna.
+- Circular externa.
+
+## B. Campos
+
+- Código.
+- Número consecutivo, si aplica.
+- Fecha.
+- Destinatarios.
+- Asunto.
+- Saludo, cuando corresponda.
+- Texto.
+- Despedida, cuando corresponda.
+- Nombre del responsable.
+- Cargo.
+- Firma.
+
+## C. Destinatarios
+
+Permitir seleccionar:
+
+- Todos los colaboradores.
+- Departamentos específicos.
+- Personal administrativo.
+- Personal operativo.
+- Clientes.
+- Proveedores.
+- Entidades externas.
+- Otros destinatarios personalizados.
+
+## D. Características
+
+Incorporar las modalidades de distribución correspondientes:
+
+- Bloque extremo.
+- Bloque.
+
+La circular debe permitir dirigir un mismo contenido a un grupo específico de personas, tanto interno como externo.
+
+# 9. ACTAS
+
+Crear un generador de actas administrativas y de reuniones, basado en el capítulo 8 de la GTC 185.
+
+## A. Clases de actas
+
+Permitir seleccionar las modalidades contempladas en la guía, entre ellas:
+
+- Actas de comité.
+- Actas de consejo.
+- Actas de reunión administrativa.
+- Actas de asamblea.
+- Actas de junta directiva.
+- Actas de baja de elementos.
+- Actas de entrega.
+- Actas de levantamiento.
+- Otras modalidades que correspondan a la organización.
+
+## B. Campos
+
+- Denominación del grupo o reunión.
+- Número consecutivo.
+- Fecha.
+- Hora de inicio.
+- Hora de finalización.
+- Lugar.
+- Asistentes.
+- Ausentes.
+- Invitados.
+- Orden del día.
+- Desarrollo.
+- Decisiones tomadas.
+- Convocatoria para la siguiente reunión, cuando corresponda.
+- Firmas.
+
+## C. Participantes
+
+Permitir agregar y eliminar dinámicamente:
+
+- Nombre completo.
+- Cargo.
+- Dependencia.
+- Condición de asistencia.
+
+## D. Orden del día y desarrollo
+
+Permitir agregar múltiples puntos.
+
+Cada punto debe tener:
+
+- Número.
+- Tema.
+- Descripción.
+- Intervenciones.
+- Decisiones.
+
+## E. Compromisos
+
+Incorporar una tabla dinámica con:
+
+- Actividad o compromiso.
+- Responsable.
+- Fecha de cumplimiento.
+- Observaciones.
+
+## F. Firmas
+
+Incluir espacios adecuados para las firmas de los responsables y participantes que correspondan.
+
+La estructura debe respetar las partes específicas de las actas contempladas en la GTC 185.
+
+# 10. INFORMES
+
+Crear un generador de informes organizacionales basado en el capítulo 9 de la GTC 185.
+
+## A. Clases de informes
+
+Incluir:
+
+- Informe corto.
+- Informe extenso.
+- Resumen ejecutivo.
+
+Permitir seleccionar la modalidad antes de iniciar el formulario.
+
+## B. Información general
+
+- Título.
+- Código, cuando corresponda.
+- Fecha.
+- Responsable.
+- Destinatario.
+- Dependencia.
+- Objetivo.
+
+## C. Informe corto
+
+Permitir incorporar:
+
+- Encabezamiento.
+- Objetivo.
+- Introducción, cuando corresponda.
+- Desarrollo.
+- Conclusiones.
+- Firma.
+
+## D. Informe extenso
+
+Permitir incorporar:
+
+- Portada.
+- Tabla de contenido.
+- Introducción.
+- Objetivos.
+- Desarrollo del informe.
+- Metodología, cuando corresponda.
+- Resultados.
+- Análisis.
+- Conclusiones.
+- Recomendaciones.
+- Bibliografía.
+- Anexos.
+
+## E. Resumen ejecutivo
+
+Permitir incorporar:
+
+- Identificación.
+- Resumen del tema.
+- Resultados principales.
+- Conclusiones.
+- Recomendaciones.
+
+## F. Herramientas de edición
+
+Permitir incorporar:
+
+- Tablas.
+- Listas.
+- Títulos.
+- Subtítulos.
+- Gráficos.
+- Datos numéricos.
+- Figuras.
+- Referencias bibliográficas.
+- Anexos.
+
+La inteligencia artificial debe ayudar a organizar la información, mejorar la redacción y estructurar los informes.
+
+No debe inventar resultados, cifras, conclusiones ni información que no haya sido proporcionada.
+
+# 11. CERTIFICADOS Y CONSTANCIAS
+
+Crear un módulo que permita elaborar certificados y constancias de manera independiente, respetando las diferencias establecidas en el capítulo 10 de la GTC 185.
+
+## A. Certificados
+
+Permitir seleccionar:
+
+- Certificado laboral.
+- Certificado de prestación de servicios.
+- Certificado de participación.
+- Certificado de cumplimiento.
+- Certificado de asistencia.
+- Certificado personalizado.
+
+## B. Constancias
+
+Permitir seleccionar:
+
+- Constancia laboral.
+- Constancia de asistencia.
+- Constancia de participación.
+- Constancia de vinculación.
+- Constancia de realización de actividades.
+- Constancia personalizada.
+
+## C. Campos
+
+- Código o número, cuando corresponda.
+- Ciudad y fecha.
+- Nombre completo.
+- Tipo y número de identificación.
+- Información que se certifica o hace constar.
+- Periodo o fechas.
+- Nombre de quien expide.
+- Cargo.
+- Firma.
+
+## D. Características
+
+Crear plantillas diferenciadas para certificados y constancias.
+
+Permitir seleccionar las distribuciones correspondientes:
+
+- Certificados: estilo bloque, de acuerdo con el modelo de la guía.
+- Constancias: estilo bloque extremo, de acuerdo con el modelo de la guía.
+
+Diseñar documentos institucionales elegantes, sobrios y profesionales.
+
+No inventar información que deba ser certificada.
+
+# 12. HOJA DE VIDA CORPORATIVA
+
+Crear un generador de hojas de vida corporativas basado en el capítulo 11 de la GTC 185.
+
+Este módulo debe estar orientado al registro y presentación de información de las personas vinculadas a la organización.
+
+## A. Información personal
+
+- Nombre completo.
+- Tipo y número de identificación.
+- Lugar y fecha de nacimiento, cuando se requiera.
+- Dirección.
+- Teléfono.
+- Correo electrónico.
+- Información de contacto.
+
+## B. Información académica
+
+- Institución educativa.
+- Estudios realizados.
+- Título obtenido.
+- Fecha de inicio.
+- Fecha de finalización.
+
+Permitir agregar múltiples registros.
+
+## C. Experiencia laboral
+
+- Empresa.
+- Cargo.
+- Fecha de ingreso.
+- Fecha de retiro.
+- Funciones.
+- Experiencia relevante.
+
+Permitir agregar múltiples experiencias.
+
+## D. Formación complementaria
+
+- Cursos.
+- Seminarios.
+- Capacitaciones.
+- Certificaciones.
+
+## E. Información adicional
+
+Incorporar los campos correspondientes a la estructura de hoja de vida corporativa de la guía.
+
+No confundir este documento con una hoja de vida comercial o un currículum moderno convencional.
+
+No inventar información personal, académica o laboral.
+
+# 13. SOBRES COMERCIALES
+
+Crear un generador de sobres comerciales basado en el capítulo 12 de la GTC 185.
+
+## A. Tipos de sobres
+
+Permitir seleccionar las clases contempladas en la guía:
+
+- Sobre oficio.
+- Sobre para tarjeta.
+- Sobre de manila.
+
+Permitir incorporar las dimensiones del sobre seleccionado.
+
+## B. Información del remitente
+
+- Razón social.
+- Logotipo.
+- NIT.
+- Dirección.
+- Ciudad.
+- País.
+- Correo electrónico, cuando corresponda.
+
+## C. Información del destinatario
+
+- Nombre completo.
+- Cargo.
+- Organización.
+- Dirección.
+- Ciudad.
+- Departamento.
+- País.
+
+## D. Distribución
+
+Incorporar las zonas de distribución del sobre.
+
+Permitir visualizar:
+
+- Zona del remitente.
+- Zona del destinatario.
+- Zona de uso postal, cuando corresponda.
+
+Respetar la distribución de los datos en tercios y las recomendaciones de presentación de la GTC 185.
+
+La vista previa debe mostrar el sobre en sus dimensiones reales o proporcionales.
+
+Permitir imprimir directamente.
+
+# 14. MENSAJES ELECTRÓNICOS
+
+Crear un generador de mensajes electrónicos basado en el capítulo 13 de la GTC 185.
+
+## A. Campos
+
+- Remitente.
+- Destinatario.
+- Copia.
+- Copia oculta.
+- Asunto.
+- Saludo.
+- Cuerpo del mensaje.
+- Despedida.
+- Firma institucional.
+- Archivos adjuntos, como referencia.
+
+## B. Tipos de mensajes
+
+- Solicitud de información.
+- Envío de documentos.
+- Respuesta empresarial.
+- Confirmación.
+- Invitación.
+- Agradecimiento.
+- Seguimiento.
+- Comunicación interna.
+- Notificación.
+- Otros mensajes personalizados.
+
+## C. Asistencia de inteligencia artificial
+
+Permitir:
+
+- Redactar correos a partir de ideas.
+- Corregir ortografía.
+- Mejorar coherencia.
+- Resumir mensajes.
+- Adaptar el tono.
+- Crear asuntos breves y claros.
+
+## D. Presentación
+
+Mostrar una vista previa similar a un correo electrónico convencional.
+
+Incluir una firma institucional configurable.
+
+No simular el envío real de correos si no existe una integración funcional con un servicio de correo electrónico.
+
+# 15. TARJETAS PROTOCOLARIAS
+
+Crear un generador de tarjetas protocolarias basado en el capítulo 14 de la GTC 185.
+
+## A. Tipos de tarjetas
+
+- Tarjetas de invitación.
+- Tarjetas de felicitación.
+
+Permitir incorporar otros mensajes protocolarios cuando sean compatibles con las necesidades de la organización.
+
+## B. Tarjetas de invitación
+
+Campos:
+
+- Nombre de la organización.
+- Tipo de evento.
+- Motivo de la invitación.
+- Nombre del destinatario, cuando corresponda.
+- Fecha.
+- Hora.
+- Lugar.
+- Información adicional.
+- Datos de confirmación.
+
+## C. Tarjetas de felicitación
+
+Campos:
+
+- Nombre del destinatario.
+- Motivo de felicitación.
+- Mensaje.
+- Nombre de la organización.
+- Firma o responsable.
+
+## D. Diseño
+
+Crear diseños elegantes y sobrios.
+
+Permitir seleccionar diferentes presentaciones visuales sin perder la finalidad protocolaria.
+
+Incorporar el logotipo de VAQUIMILK cuando corresponda.
+
+Permitir visualizar, editar, imprimir y exportar las tarjetas.
+
+# 16. IDENTIDAD CORPORATIVA DE VAQUIMILK S.A.S.
+
+Todos los documentos deben conservar la identidad institucional de VAQUIMILK S.A.S.
+
+Utilizar el logo oficial que proporcionaré como archivo adjunto.
+
+## A. Encabezado
+
+Cuando corresponda al documento:
+
+- Incorporar el logo.
+- Incorporar la razón social.
+- Incorporar el NIT.
+- Mantener las proporciones originales del logo.
+- No deformarlo.
+- No recortarlo.
+- No modificar sus colores.
+- Respetar las zonas documentales correspondientes.
+
+## B. Pie de página
+
+Incorporar los datos corporativos confirmados:
+
+Correo electrónico: vaquimilk.lacteos@gmail.com
+
+Dirección: Carrera 14T #74-24 Sur, Bogotá D.C., Colombia.
+
+El teléfono debe permanecer configurable y no debe mostrarse hasta confirmar el número oficial.
+
+## C. Configuración institucional
+
+Crear un apartado de configuración desde el cual se pueda actualizar:
+
+- Logo.
+- Razón social.
+- Nombre comercial.
+- NIT.
+- Dirección.
+- Correo.
+- Teléfonos.
+- Página web.
+- Representante legal.
+- Cargos autorizados.
+- Información complementaria.
+
+Los cambios deben reflejarse automáticamente en las plantillas que utilicen esos datos.
+
+IMPORTANTE: No forzar un encabezado o pie de página idéntico en todos los documentos. Cada tipo documental debe respetar sus propias características.
+
+# 17. ESTILOS VISUALES
+
+Además de los estilos normativos de distribución, permitir seleccionar diferentes diseños visuales.
+
+Incluir tres alternativas:
+
+**Estilo 1: Clásico empresarial**
+
+Presentación formal, sobria y tradicional.
+
+**Estilo 2: Moderno empresarial**
+
+Presentación limpia, organizada y contemporánea.
+
+**Estilo 3: Institucional elegante**
+
+Presentación profesional con elementos de identidad corporativa.
+
+Estos estilos deben modificar únicamente la apariencia visual.
+
+No deben alterar las estructuras, partes, alineaciones ni distribuciones correspondientes a la GTC 185.
+
+# 18. ASISTENTE DE REDACCIÓN CON INTELIGENCIA ARTIFICIAL
+
+Incorporar una herramienta de asistencia para la redacción de documentos.
+
+Debe permitir:
+
+- Mejorar ortografía.
+- Corregir errores gramaticales.
+- Mejorar coherencia.
+- Organizar párrafos.
+- Utilizar lenguaje administrativo y empresarial.
+- Adaptar el tono según el documento.
+- Generar textos a partir de ideas.
+- Resumir información.
+- Mejorar la claridad.
+- Proponer asuntos.
+- Corregir redundancias.
+
+La inteligencia artificial debe respetar las características del tipo documental seleccionado.
+
+No debe inventar:
+
+- Nombres.
+- Fechas.
+- Identificaciones.
+- Cifras.
+- Compromisos.
+- Resultados.
+- Experiencias laborales.
+- Información institucional.
+- Hechos que no hayan sido proporcionados.
+
+El usuario siempre debe poder revisar y editar el contenido antes de generar el documento.
+
+# 19. VISTA PREVIA DOCUMENTAL
+
+Todos los documentos deben contar con una vista previa antes de descargarse.
+
+La vista previa debe:
+
+- Representar fielmente las dimensiones del documento.
+- Respetar márgenes y zonas.
+- Mostrar correctamente el logo.
+- Mostrar encabezados y pies de página cuando correspondan.
+- Aplicar la tipografía seleccionada.
+- Aplicar el estilo de distribución elegido.
+- Respetar los espacios y alineaciones.
+- Mostrar correctamente tablas y firmas.
+- Permitir revisar el contenido completo.
+- Actualizarse automáticamente cuando se editen los campos.
+
+Para documentos de varias páginas:
+
+- Permitir navegar entre páginas.
+- Mostrar la numeración correspondiente.
+- Incorporar la identificación de páginas subsiguientes cuando corresponda.
+- Evitar cortes inadecuados de párrafos, tablas o firmas.
+
+Para sobres y tarjetas, generar vistas previas adaptadas a sus dimensiones.
+
+# 20. GENERACIÓN Y EXPORTACIÓN
+
+Incluir las siguientes opciones para todos los tipos documentales.
+
+## A. Descargar en Word (.docx)
+
+El documento debe:
+
+- Ser completamente editable.
+- Conservar fuentes y tamaños.
+- Mantener márgenes y alineaciones.
+- Conservar el logo.
+- Mantener encabezados y pies de página.
+- Conservar tablas y listas.
+- Mantener espacios para firmas.
+- Respetar la distribución documental.
+- Evitar convertir el documento completo en una imagen.
+
+## B. Descargar en PDF
+
+El documento debe:
+
+- Mantener la presentación visual de la vista previa.
+- Conservar el formato.
+- Respetar la distribución.
+- Mantener correctamente las dimensiones.
+- Generar documentos listos para imprimir.
+
+## C. Otras opciones
+
+- Imprimir directamente.
+- Editar nuevamente.
+- Guardar borrador.
+- Duplicar documento.
+- Volver al menú principal.
+
+No dejar botones decorativos ni descargas simuladas.
+
+# 21. VALIDACIÓN Y CONTROL DE CALIDAD
+
+Antes de generar cualquier documento:
+
+1. Verificar los campos obligatorios.
+2. Revisar ortografía y gramática.
+3. Comprobar que el documento corresponda al tipo seleccionado.
+4. Revisar márgenes.
+5. Verificar alineaciones.
+6. Comprobar tipografía y tamaños.
+7. Revisar espacios.
+8. Verificar encabezados y pies de página.
+9. Comprobar la distribución.
+10. Validar que no exista información incompleta involuntaria.
+
+Incorporar advertencias cuando:
+
+- Falten datos obligatorios.
+- No exista información del remitente.
+- No se haya definido el destinatario.
+- Se requiera una firma.
+- Existan datos contradictorios.
+- Se detecten campos sin completar.
+
+No completar automáticamente información desconocida.
+
+## VALIDACIÓN NORMATIVA
+
+Cada documento debe contar con una revisión de sus características particulares.
+
+Verificar que:
+
+- La estructura corresponda al capítulo aplicable de la GTC 185.
+- Los estilos de distribución estén correctamente implementados.
+- Los elementos documentales aparezcan en el orden correspondiente.
+- Los márgenes y zonas se ajusten a las recomendaciones aplicables.
+- Los elementos institucionales no interfieran con la distribución documental.
+
+No afirmar que la herramienta garantiza cumplimiento normativo absoluto.
+
+Presentar la GTC 185 como una guía técnica de recomendaciones adaptable a las características internas de VAQUIMILK S.A.S.
+
+# 22. DISEÑO DE LA INTERFAZ
+
+Mantener una apariencia:
+
+- Moderna.
+- Empresarial.
+- Elegante.
+- Organizada.
+- Intuitiva.
+- Fácil de utilizar.
+- Adaptable a computadores, tabletas y celulares.
+
+Utilizar:
+
+- Tarjetas para seleccionar documentos.
+- Formularios divididos por secciones.
+- Botones claramente identificados.
+- Indicadores de progreso en formularios extensos.
+- Selectores de plantillas.
+- Vista previa documental.
+- Ventanas de confirmación para las descargas.
+- Mensajes de validación.
+- Navegación sencilla.
+
+Conservar los colores corporativos y el logo oficial de VAQUIMILK S.A.S.
+
+# 23. INTEGRACIÓN Y COMPATIBILIDAD
+
+Si el generador se integra a una plataforma existente:
+
+- Incorporarlo como módulo independiente.
+- No modificar funcionalidades que no pertenezcan al generador.
+- No alterar conexiones existentes.
+- No eliminar componentes.
+- Reutilizar componentes y dependencias cuando sea técnicamente conveniente.
+- Evitar duplicar código innecesariamente.
+- Mantener la compatibilidad con la arquitectura actual.
+- Respetar la estructura de la base de datos.
+- Mantener la seguridad de la información.
+- Evitar pérdida de información durante las actualizaciones.
+
+# 24. PRUEBAS FINALES
+
+Antes de finalizar, verificar individualmente los diez módulos:
+
+1. Cartas.
+2. Memorandos.
+3. Circulares.
+4. Actas.
+5. Informes.
+6. Certificados y constancias.
+7. Hojas de vida corporativas.
+8. Sobres comerciales.
+9. Mensajes electrónicos.
+10. Tarjetas protocolarias.
+
+Comprobar que cada uno:
+
+- Abra su propio formulario.
+- Permita diligenciar sus campos.
+- Tenga una plantilla independiente.
+- Permita editar la información.
+- Muestre correctamente la vista previa.
+- Genere correctamente el archivo Word.
+- Genere correctamente el archivo PDF cuando corresponda.
+- Conserve la identidad corporativa.
+- Respete las características documentales correspondientes.
+- Permita imprimir correctamente.
+
+Realizar pruebas con documentos de una página y de varias páginas.
+
+Comprobar especialmente que las tablas, firmas, encabezados, pies de página y saltos de página se mantengan correctamente.
+
+No dejar botones sin funcionamiento, formularios incompletos ni descargas simuladas.
+
+# 25. RESULTADO FINAL ESPERADO
+
+Desarrollar una plataforma integral de generación documental para VAQUIMILK S.A.S., basada en la Guía Técnica Colombiana GTC 185:2009.
+
+El resultado debe ser una herramienta profesional y funcional que permita elaborar los diferentes documentos organizacionales contemplados en los capítulos 5 al 14 de la guía.
+
+Debe contar con:
+
+- Diez módulos documentales.
+- Formularios independientes.
+- Plantillas específicas.
+- Estilos de distribución correspondientes.
+- Identidad corporativa.
+- Asistencia de inteligencia artificial.
+- Vista previa.
+- Edición.
+- Exportación a Word.
+- Exportación a PDF.
+- Impresión.
+- Validación documental.
+
+La prioridad debe ser la correcta aplicación de las recomendaciones de la GTC 185, la calidad de presentación, la facilidad de uso y la generación de documentos empresariales profesionales.
+
+**INSTRUCCIÓN FINAL:** Antes de implementar el desarrollo, analizar la estructura completa del proyecto existente y los documentos normativos adjuntos. Identificar los componentes que pueden reutilizarse, establecer un plan de implementación y desarrollar cada módulo sin afectar las funcionalidades existentes.

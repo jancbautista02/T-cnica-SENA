@@ -1,0 +1,6 @@
+{
+  "name": "Generador Integral de Documentos Empresariales - VAQUIMILK S.A.S.",
+  "description": "Plataforma de generación, vista previa y exportación de documentos empresariales para VAQUIMILK S.A.S. basada en la GTC 185:2009 de ICONTEC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
